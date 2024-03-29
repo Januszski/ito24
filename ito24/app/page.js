@@ -25,15 +25,6 @@ export default function Home() {
           style={{ height: "150px", marginTop: "25px", marginBottom: "25px" }}
         />
 
-        {/* <Image
-          src='/eyeball.png'
-          alt='logo'
-          width={250}
-          height={100}
-          layout='fixed' // Add this line
-          className='object-cover ml-1.5 border-blue-500'
-          style={{ height: "150px", marginTop: "25px", marginBottom: "25px" }}
-        /> */}
         <span style={{ paddingRight: "25px" }}>
           <Snackbar />
         </span>

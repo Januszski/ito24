@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "@/components/Nav";
 import Avatar from "@/components/staff/Avatar";
 import Image from "next/image";
+import TextInput from "@/components/TextInput";
 
 const page = () => {
   return (
@@ -17,10 +18,13 @@ const page = () => {
           }}
           className='w-full h-full mt-5'
         >
-          <span className='writing-font5 text-9xl'> NOTICE:</span>
-          <div>
+          <span className='writing-font5 text-9xl text-yellow-400'>
             {" "}
-            This page is still under development by our IT specialist Baldrick{" "}
+            NOTICE:
+          </span>
+          <div className='mt-5 mb-5 writing-font5 text-4xl'>
+            {" "}
+            This page is under development by our IT specialist Baldrick{" "}
           </div>
           <div style={{ display: "flex", alignItems: "center" }}>
             <div>
@@ -35,6 +39,12 @@ const page = () => {
               />
             </div>
           </div>
+          <div className='mt-5 mb-5 writing-font5 text-4xl'>
+            {" "}
+            As a temporary fix, use this to enter your email to sign up for
+            eNews
+          </div>
+          <TextInput />
         </div>
       </div>
     </>

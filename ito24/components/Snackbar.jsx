@@ -6,7 +6,6 @@ import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Snackbar from "@mui/material/Snackbar";
 import { createTheme, ThemeProvider } from "@mui/material";
-import metalImage from "../public/metal1.jpeg";
 import WbTwilightIcon from "@mui/icons-material/WbTwilight";
 
 const theme = createTheme({

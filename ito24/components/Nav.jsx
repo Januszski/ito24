@@ -28,7 +28,7 @@ const theme = createTheme({
   },
 });
 
-const pages = ["Staff Directory", "eNews", "Events"];
+const pages = ["Staff Directory", "eNews"];
 // const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 function ResponsiveAppBar() {
@@ -97,13 +97,7 @@ function ResponsiveAppBar() {
                   <Link
                     style={{ textDecoration: "none" }}
                     key={page}
-                    href={
-                      page == "eNews"
-                        ? "/enews"
-                        : page == "Events"
-                        ? "/events"
-                        : "/staff"
-                    }
+                    href={page == "eNews" ? "/enews" : "/staff"}
                   >
                     <MenuItem key={page} onClick={handleCloseNavMenu}>
                       <Typography textAlign='center'>{page}</Typography>
@@ -134,13 +128,7 @@ function ResponsiveAppBar() {
                 <Link
                   style={{ textDecoration: "none" }}
                   key={page}
-                  href={
-                    page == "eNews"
-                      ? "/enews"
-                      : page == "Events"
-                      ? "/events"
-                      : "/staff"
-                  }
+                  href={page == "eNews" ? "/enews" : "/staff"}
                 >
                   <Button
                     key={page}
