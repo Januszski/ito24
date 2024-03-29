@@ -72,7 +72,7 @@ export default function PositionedSnackbar() {
           borderRadius: 20,
           border: "2px solid #FFFFF",
           //   backgroundColor: "#9C9C9C",
-          backgroundImage: `url("/anotherhs.jpg")`,
+          backgroundImage: `url("/scrat3.jpg")`,
           backgroundSize: "cover",
           backgroundPosition: "center bottom", // Adjusted background position
 

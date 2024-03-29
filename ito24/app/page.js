@@ -25,7 +25,7 @@ export default function Home() {
           style={{ height: "150px", marginTop: "25px", marginBottom: "25px" }}
         />
 
-        <Image
+        {/* <Image
           src='/eyeball.png'
           alt='logo'
           width={250}
@@ -33,7 +33,7 @@ export default function Home() {
           layout='fixed' // Add this line
           className='object-cover ml-1.5 border-blue-500'
           style={{ height: "150px", marginTop: "25px", marginBottom: "25px" }}
-        />
+        /> */}
         <span style={{ paddingRight: "25px" }}>
           <Snackbar />
         </span>
@@ -60,12 +60,6 @@ export default function Home() {
           <div className='wave'> </div>
 
           <span style={{ marginLeft: "50px" }}>
-            <p className='desc centered-text ml-9 mr-9 writing-font4'>
-              Welcome to Todd High School, where excellence meets opportunity in
-              the heart of Iowa! At Todd High, we are committed to providing a
-              nurturing environment where students can flourish academically,
-              socially, and personally.
-            </p>
             <p className='desc centered-text ml-9 mr-9 writing-font4'>
               Welcome to Todd High School, where excellence meets opportunity in
               the heart of Iowa! At Todd High, we are committed to providing a

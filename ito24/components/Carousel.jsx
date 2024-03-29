@@ -10,7 +10,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #0B7A32 0%, #00008B 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #0B7A32 0%, #00008B 100%)",
         }}
       >
         <Image
@@ -37,7 +37,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #00008B 0%, #880808 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #00008B 0%, #880808 100%)",
         }}
       >
         <Image
@@ -55,7 +55,7 @@ function IndividualIntervalsExample() {
             className='writing-font text-gray-200'
           >
             <p className='w-fit bg-slate-700'>
-              Our school is a top breeding ground for D1 pickleball players
+              Our school puts out more D1 pickleball players than any other
             </p>
           </span>
         </Carousel.Caption>
@@ -64,7 +64,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #880808 0%, #5D3FD3 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #880808 0%, #5D3FD3 100%)",
         }}
       >
         <Image
@@ -89,7 +89,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #5D3FD3 0%, #E6E6FA 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #5D3FD3 0%, #E6E6FA 100%)",
         }}
       >
         <Image
@@ -107,7 +107,7 @@ function IndividualIntervalsExample() {
             className='writing-font text-gray-200'
           >
             <p className='w-fit bg-slate-700'>
-              68% of teaching staff hold masters degrees
+              68% of teaching staff hold masters degrees or higher
             </p>
           </span>
         </Carousel.Caption>
@@ -116,7 +116,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #E6E6FA 0%, #FFBF00 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #E6E6FA 0%, #FFBF00 100%)",
         }}
       >
         <Image
@@ -141,7 +141,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #FFBF00 0%, #4A0404 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #FFBF00 0%, #4A0404 100%)",
         }}
       >
         <Image
@@ -168,7 +168,7 @@ function IndividualIntervalsExample() {
         interval={2500}
         style={{
           height: "400px",
-          backgroundImage: "linear-gradient(90deg, #4A0404 0%, #0B7A32 100%)",
+          //   backgroundImage: "linear-gradient(90deg, #4A0404 0%, #0B7A32 100%)",
         }}
       >
         <Image

@@ -87,6 +87,16 @@
   font-family: "CustomFont4", sans-serif;
 }
 
+@font-face {
+  font-family: "CustomFont5";
+  src: url("/BebasNeue-Regular.ttf") format("truetype");
+  /* You can also specify font-weight and font-style here if needed */
+}
+/* Apply the custom font to specific elements */
+.writing-font5 {
+  font-family: "CustomFont5", sans-serif;
+}
+
 /* html,
 body {
   width: 100%;
@@ -117,7 +127,7 @@ body {
   overflow: auto;
   background: linear-gradient(
     315deg,
-    rgb(246, 223, 245) 3%,
+    rgb(64, 131, 67) 3%,
     rgb(132, 143, 153) 38%
   );
   animation: gradient 15s ease infinite;

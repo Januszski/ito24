@@ -22,7 +22,10 @@ const page = () => {
         }}
       >
         <Grid container flexDirection='row' columns={6} id='log-grid'>
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff1.jpg"}
               name={"Mz. Pomegranate"}
@@ -30,7 +33,10 @@ const page = () => {
               bio={"pomegranate@toddhs.ia.us"}
             />
           </span>
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff2.jpeg"}
               name={"Mr. Keto"}
@@ -38,7 +44,10 @@ const page = () => {
               bio={"keto@toddhs.ia.us"}
             />
           </span>
-          <span style={{}} className='m-5 w-min'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5 w-min'
+          >
             <Card
               source={"/staff/staff3.jpeg"}
               name={"Dr. Euleneichschtenstein"}
@@ -46,7 +55,10 @@ const page = () => {
               bio={"abc123@toddhs.ia.us"}
             />
           </span>
-          <span style={{ width: "20%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff4.jpg"}
               name={"Mrs. Hayes"}
@@ -55,7 +67,10 @@ const page = () => {
             />
           </span>
 
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff5.jpg"}
               name={"Mr. Thurgood"}
@@ -64,7 +79,10 @@ const page = () => {
             />
           </span>
 
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff6.png"}
               name={"Ms. Reel"}
@@ -73,7 +91,10 @@ const page = () => {
             />
           </span>
 
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/Pete.jpeg"}
               name={"Mr. Ratajczyk"}
@@ -82,12 +103,27 @@ const page = () => {
             />
           </span>
 
-          <span style={{ width: "17%" }} className='m-5'>
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
             <Card
               source={"/staff/staff7.jpg"}
               name={"Mr. McEnroe"}
               title={"Principal"}
               bio={"mcenroe@toddhs.ia.us"}
+            />
+          </span>
+
+          <span
+            style={{ minWidth: "min-content", width: "17%" }}
+            className='m-5'
+          >
+            <Card
+              source={"/enews/ITGuy.jpeg"}
+              name={"Baldrick"}
+              title={"IT"}
+              bio={"IT@toddhs.ia.us"}
             />
           </span>
         </Grid>
